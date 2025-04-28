@@ -1,11 +1,11 @@
- * ::after, *::before{
+*, *::after, *::before {
     box-sizing: border-box;
 }
-body{
+body {
     margin: 0;
     overflow: hidden;
 }
-.title{
+.title {
 z-index: 10;
 position: absolute;
 display: flex;
@@ -45,7 +45,7 @@ display: none;
     background-color: hsl(100, 75%, 50%);
 }
 .pipe > .top{
-    height: 0;
+    top: 0;
     bottom: calc(var(--hole-top) * 1px);
 }
 .pipe > .bottom{
